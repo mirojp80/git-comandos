@@ -3,9 +3,12 @@
 
 git init    			>>> inicializar un proyecto
 git status				>>> ver el estado de nuestros archivos
-git add 				>>> agregar un archivo al area de trabajo
+git add <archivo>				>>> agregar un archivo al area de trabajo
 git commit 				>>> crear un snapshoot o punto de control
 git config --global user.email <email> 			>>> configurar email del usuario
 git config --global user.name <username> 			>>> configurar username del usuario
 git log 				>>> ver logs
+git checkout -- <archivo> >>> deshacer el último cambio "si no se ha hecho un commit antes"
+git diff <archivo> 		>>> ver las diferencias entre las versiones
+
 
