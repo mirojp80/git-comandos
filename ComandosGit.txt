@@ -4,11 +4,20 @@
 git init    			>>> inicializar un proyecto
 git status				>>> ver el estado de nuestros archivos
 git add <archivo>				>>> agregar un archivo al area de trabajo
-git commit 				>>> crear un snapshoot o punto de control
+git commit 	-m "comentario"			>>> crear un snapshoot o punto de control
 git config --global user.email <email> 			>>> configurar email del usuario
 git config --global user.name <username> 			>>> configurar username del usuario
 git log 				>>> ver logs
 git checkout -- <archivo> >>> deshacer el último cambio "si no se ha hecho un commit antes"
 git diff <archivo> 		>>> ver las diferencias entre las versiones
+.gitignore				>>> archivo oculto donde se agregan los nombres de archivos y directorios que no queremos que se agreguen al proyecto.
+git branch 				>>> muestra las ramas
+git branch <nombre> 	>>> crea una rama "versión alternativa del proyecto"
+git checkout <nombre de rama> 	>>> cambia a la rama especificada
 
+
+git remote add origin https://github.com/mirojp80/git-comandos.git  >>> le decimos a git en que dirección agregar los archivos
+git push -u origin master   		>>> sube los archivos del proyecto a la dirección del repositorio dada con git remote
+
+git clone <dirección> 			clona o descarga los archivos en local.
 
